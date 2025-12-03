@@ -1,7 +1,25 @@
 Gatsby EXP Dagster
 ==================
 
+How to setup and Run Hello-World
+--------------------------------
 
+.. code-block:: bash
+
+    # install uv if not available
+    brew install uv
+
+    # Clone repo
+    git clone https://github.com/Gatsby-Lee/gatsby-exp-dagster.git
+
+    # Intstall dependecies
+    uv sync
+
+    # Enable venv
+    source .venv/bin/activate
+
+    # Run locally - CLI approach
+    dagster job execute -f experiments/hello_world/defs.py -j hello_job
 
 
 What I did to initialize this Project on my mac
