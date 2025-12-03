@@ -3,7 +3,7 @@ import dagster as dg
 
 @dg.op
 def hello_op():
-    print("hello world")
+    print("====> PRINT:: hello world")
 
 
 @dg.job
